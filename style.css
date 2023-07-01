@@ -1,0 +1,98 @@
+
+body {
+    background-image: url('./images/summerBackground.png');
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(12, 7, 76);
+    
+    }
+    .app{
+        max-width: 430px;
+        background-image: linear-gradient(150deg,rgb(74, 120, 219),rgb(230, 51, 203));
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+        margin: 30px auto;
+        opacity: 0.9;
+       
+    }
+    .search i{
+        cursor: pointer;
+        opacity: 0.9;
+    }
+    .search input {
+        border: 0;
+        outline: 0;
+        height: 50px;
+        background: #ebfffc;
+        color: #555;
+        border-radius: 30px;
+        margin: 20px;
+        padding: 0 16px;
+        font-size: 18px;
+        opacity: 0.85;
+    
+    }
+    .search button {
+        width: 50px;
+        height: 50px;
+        border: 0;
+        outline: 0;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0.85;
+    }
+    .searchIcon{
+        width: 80%;
+        height: 80%;
+    }
+    
+    .city{
+       
+        margin: 30px;
+    }
+    .weather{
+        margin: 60px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .weather img{
+        width: 30%;
+        opacity: 0.85;
+    }
+    
+    .weather p{
+        font-size: 30px;
+        font-weight: bolder;
+      
+    }
+    
+    .description{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px ;
+        padding: 0 20px;
+        font-family: 'Montserrat-ExtraLight', sans-serif;
+    }
+    
+    .col img{
+        width: 50px;
+        height: 50px;
+        opacity: 0.85;
+        
+    }
+    .col{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    div p{
+        margin: 2px;
+    }
+    .locationIcon:hover,.search button  :hover{
+        border: blueviolet;
+        transform: scale(1.1);
+    }
